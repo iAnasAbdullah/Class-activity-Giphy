@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img {
+            width: 290px;
+            height: 349px;
+            margin: 10px;
+        }
+
+        input {
+            padding: 5px;
+            border: 3px solid #003600;
+        }
+
+        button {
+            padding: 5px;
+        }
+    </style>
+    <div id="searchResults"></div>
+    <script src="./JS.js"></script>
+</head>
+
+<body>
+    <header>
+        <input id="inputField" value="cats" type="text" placeholder="Enter a meme you want to see">
+        <button onclick=fetchGiphyAPI(inputField.value)>View Images</button>
+    </header>
+</body>
+
+</html>
