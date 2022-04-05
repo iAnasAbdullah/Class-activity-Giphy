@@ -3,7 +3,7 @@ function fetchGiphyAPI(keyword) {
     return;
     }
     var url = "https://api.giphy.com/v1/gifs/search";
-    var params = "api_key=ABC&limit=5&q=" + encodeURIComponent(keyword);
+    var params = "api_key=Z1G9HDijnRQjfMmD0OYp7UDt8CBz7BWN&limit=5&q=" + encodeURIComponent(keyword);
     var xhr = new XMLHttpRequest();
     xhr.addEventListener("readystatechange", function () {
     if (this.readyState === 4 && this.status === 200) {
